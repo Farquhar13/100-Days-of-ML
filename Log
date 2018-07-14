@@ -8,7 +8,27 @@ video series on neural networks - https://www.youtube.com/watch?v=bxe2T-V8XRs
 stack exchange post on hidden layers - https://stats.stackexchange.com/questions/63152/what-does-the-hidden-layer-in-a-neural-network-compute
 
 7/13/18
-Day2:
-I read two articles on medium about building a neural network and ran one.
-https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1
+Day 4:
+I read two articles on medium about building a neural network.
+Artilce by Milo Spencer-Harper:
+  https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1
+Article by James Loy: (I ran the code provided in this one)
 https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6
+
+Weights:
+Thinking graphically seems to help. Weights go inbetween "neurons" and are essentially the strength of the "synapse". 
+Multiply the neuron values by the weights as you move along the synpase.
+The higher the weight the more influence that associated data has.
+
+Not sure if bias is applied for every synapse or is added once 
+
+Activattion function:
+Is applied to the sum of the all inputs to the new neuron. A given input is the preceding weight * the previous neuron. x*W
+All of the examples I have seem have used a sigmoid function. I am sure there is a lot more to learn about activation fucntions, 
+but sigmoid is good because it forces the output between 0-1 (pre-bias) and the extreme ends of the curve are fairly flat, leading 
+to shallow gradient. 
+The result of the activation function is the value at the new neuron
+
+Watched this video: https://www.youtube.com/watch?v=bxe2T-V8XRs
+A method for scaling data can be to divide all the data by the largest data point (as long as all the data is positive),
+this will scale everything between 0 and 1. Do for trainging and output data!
