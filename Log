@@ -6,3 +6,9 @@ hidden layers, activation fucntion. Not sure I fully understand the vocabulary a
 Further resources for the future:
 video series on neural networks - https://www.youtube.com/watch?v=bxe2T-V8XRs
 stack exchange post on hidden layers - https://stats.stackexchange.com/questions/63152/what-does-the-hidden-layer-in-a-neural-network-compute
+
+7/13/18
+Day2:
+I read two articles on medium about building a neural network and ran one.
+https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1
+https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6
